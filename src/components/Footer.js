@@ -3,6 +3,7 @@ import {
   FooterWrapper,
   FooterSocialWrapper,
   FooterSocialIcons,
+  P,
 } from "../elements"
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa"
 
@@ -33,7 +34,9 @@ export const Footer = () => {
             <FaInstagram />
           </a>
         </FooterSocialIcons>
-        <p>&copy; 2020. All rights reserved.</p>
+        <P size="xSmall" color="dark3">
+          &copy; 2020. All rights reserved.
+        </P>
       </FooterSocialWrapper>
     </FooterWrapper>
   )

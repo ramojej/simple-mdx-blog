@@ -1,5 +1,5 @@
 import React from "react"
-import TableWrapper from "../elements"
+import { TableWrapper } from "../elements"
 
 export const Table = ({ children }) => {
   return (

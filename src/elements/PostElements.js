@@ -141,6 +141,10 @@ export const PostWrapper = styled.main`
     padding: 0.5rem;
   }
 
+  pre {
+    margin-bottom: 1.025rem;
+  }
+
   @media ${props => props.theme.breakpoints.tablet} {
     grid-column: 2 / span 6;
   }

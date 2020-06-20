@@ -40,7 +40,7 @@ export const PageQuery = graphql`
           publicURL
           childImageSharp {
             fixed(quality: 90) {
-              ...GatsbyImageSharpFixed
+              ...GatsbyImageSharpFixed_withWebp
             }
           }
         }

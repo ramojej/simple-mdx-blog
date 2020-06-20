@@ -8,7 +8,7 @@ export const FeatureImage = ({ fixed }) => {
     query {
       imageSharp(fixed: { originalName: { eq: "pinas.jpg" } }) {
         fixed(quality: 90) {
-          ...GatsbyImageSharpFixed
+          ...GatsbyImageSharpFixed_withWebp
         }
       }
     }

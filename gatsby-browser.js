@@ -5,6 +5,8 @@ import { preToCodeBlock } from "mdx-utils"
 import Theme from "./src/themes/theme"
 import { Table, Code } from "./src/components"
 import "./language-tabs.css"
+import "typeface-muli"
+import "typeface-roboto-mono"
 
 const GlobalStyles = createGlobalStyle`
   * {
